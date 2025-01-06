@@ -14,8 +14,12 @@ This project is a decoder for LZMA and its variants written in pure Rust, with f
 It already supports LZMA, LZMA2 and a subset of the `.xz` file format.
 
 ## Usage
+Create an archive:
+```bash
+$ xz foo
+```
 
-Decompress a `.xz` file.
+Decompress a `.xz`
 
 ```rust
 let filename = "foo.xz";
